@@ -1,0 +1,7 @@
+# Set .scala and .py files to use LF if located inside dir-to-fix directory
+dir-to-fix/*.py text eol=lf
+dir-to-fix/*.scala text eol=lf
+
+# To force all .py and .scala files in repo to use LF, delete all above lines. Then uncomment lines below.
+#*.py text eol=lf
+#*.scala text eol=lf
